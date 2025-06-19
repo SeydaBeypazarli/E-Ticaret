@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 mt-10 py-8 text-sm text-gray-600">
+    <footer className="bg-green-400 mt-10 py-8 text-sm text-gray-600">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6">
         
         {/* Column 1 */}
@@ -11,7 +11,7 @@ const Footer = () => {
 
         {/* Column 2 */}
         <div>
-          <h4 className="font-semibold text-gray-800 mb-2">Quick Links</h4>
+          <h4 className="font-semibold text-green-800 mb-2">Quick Links</h4>
           <ul className="space-y-1">
             <li><a href="/" className="hover:text-black">Home</a></li>
             <li><a href="/shop" className="hover:text-black">Shop</a></li>
