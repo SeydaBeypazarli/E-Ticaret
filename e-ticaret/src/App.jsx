@@ -4,23 +4,24 @@ import Footer from "./layout/Footer";
 import PageContent from "./layout/PageContent";
 
 import HomePage from "./pages/HomePage";
-import ProductsPage from "./pages/ProductsPage";
+
 import ContactPage from "./pages/ContactPage";
 import AboutPage from "./pages/AboutPage";
+import ShopPage from "./pages/ShopPage";
 
 function App() {
   return (
     <Router>
-      <Header />
+      <Header />      
       <PageContent>
         <Switch>
           <Route exact path="/" component={HomePage} />
-          <Route path="/products" component={ProductsPage} />
+          <Route path="/shop" component={ShopPage} />
           <Route path="/contact" component={ContactPage} />
           <Route path="/about" component={AboutPage} />
         </Switch>
-      </PageContent>
-      <Footer />
+      </PageContent>   
+       <Footer />  
     </Router>
   );
 }
